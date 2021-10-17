@@ -1,7 +1,7 @@
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font: 112.5%/1.45em georgia, serif, sans-serif;
+  font-family: "Newsreader", "Bitter", Verdana, serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -10,8 +10,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
-  font-weight: normal;
+  font-family: "Newsreader", "Bitter", Verdana, serif;
+  font-weight: 400;
   word-wrap: break-word;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -81,9 +81,8 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-family: "Newsreader", "Bitter", Verdana, serif;
+  font-weight: 400;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
   line-height: 1.1;
@@ -260,9 +259,8 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-family: "Newsreader", "Bitter", Verdana, serif;
+  font-weight: 400;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
   line-height: 1.1;
@@ -277,9 +275,8 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-family: "Newsreader", "Bitter", Verdana, serif;
+  font-weight: 400;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
   line-height: 1.1;
@@ -294,9 +291,8 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-family: "Newsreader", "Bitter", Verdana, serif;
+  font-weight: 400;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
   line-height: 1.1;
@@ -311,9 +307,8 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-family: "Newsreader", "Bitter", Verdana, serif;
+  font-weight: 400;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
   line-height: 1.1;
@@ -328,9 +323,8 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-family: "Newsreader", "Bitter", Verdana, serif;
+  font-weight: 400;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
   line-height: 1.1;
@@ -477,16 +471,16 @@ address {
   margin-bottom: 1.45rem;
 }
 b {
-  font-weight: bold;
+  font-weight: 400;
 }
 strong {
-  font-weight: bold;
+  font-weight: 400;
 }
 dt {
-  font-weight: bold;
+  font-weight: 400;
 }
 th {
-  font-weight: bold;
+  font-weight: 400;
 }
 li {
   margin-bottom: calc(1.45rem / 2);
@@ -567,8 +561,7 @@ tt,
 code {
   background-color: hsla(0, 0%, 0%, 0.04);
   border-radius: 3px;
-  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
-    "Liberation Mono", Menlo, Courier, monospace;
+  font-family: "Newsreader", "Bitter", Verdana, serif;
   padding: 0;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
@@ -593,5 +586,78 @@ pre tt:after {
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,200;0,400;1,200;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,200;0,400;1,200;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+.dice-container {
+  background-color: #12242b;
+  color: #fff;
+  height: 100vh;
+  padding: 72px;
+}
+
+.dice-input {
+  color: #fff;
+  background-color: #12242b;
+  font-size: 120px;
+  width: 100%;
+  border: 0px;
+  font-family: "Newsreader", "Bitter", Verdana, serif;
+  margin-top: 120px;
+  text-align: center;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #19323c;
+  opacity: 1; /* Firefox */
+  font-style: italic;
+}
+
+.dice-input:focus-visible {
+  border: 0px;
+  outline-width: 0;
+}
+
+.dice-submit {
+  display: none;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 24px;
+  font-family: "Newsreader", "Bitter", Verdana, serif;
+  padding: 16px;
+  margin: 32px 0;
+  background-color: #295162;
+  color: #fff;
+  border: 0px;
+  outline-width: 0;
+  border-radius: 16px;
+}
+
+.dice-input:focus {
+  border: 0px;
+  outline-width: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .dice-container {
+    padding: 0;
+  }
+
+  .dice-input {
+    font-size: 48px;
+    width: 100%;
+    border: 0px;
+    font-family: "Newsreader", "Bitter", Verdana, serif;
+    margin-top: 120px;
+    text-align: center;
+  }
+
+  .dice-submit {
+    display: block;
   }
 }

@@ -1,7 +1,13 @@
-/**
- * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/ssr-apis/
- */
+import * as React from "react"
+import { getCssText } from "./stitches.config.js"
 
-// You can delete this file if you're not using it
+export const onRenderBody = ({ setHeadComponents }) => {
+  setHeadComponents([
+    <style
+      id="stitches"
+      dangerouslySetInnerHTML={{
+        __html: getCssText(),
+      }}
+    />,
+  ])
+}
