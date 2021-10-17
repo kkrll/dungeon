@@ -38,6 +38,45 @@ import React, { useState } from "react"
 import { Box } from "../components/Box"
 import { styled } from "../../stitches.config.js"
 
+const SpellInput = styled("input", {
+  color: "$white",
+  backgroundColor: "$grey9",
+  fontSize: "120px",
+  width: "100%",
+  border: "0px",
+  fontFamily: "$serif",
+  marginTop: "120px",
+  textAlign: "center",
+
+  "@bp2": {
+    fontSize: "48px",
+  },
+
+  "&:focus": {
+    border: "0",
+    outlineWidth: "0",
+  },
+})
+
+const SubmitButton = styled("input", {
+  display: "none",
+  boxSizing: "border-box",
+  width: "100%",
+  fontSize: "24px",
+  fontFamily: "$serif",
+  padding: "$16",
+  margin: "$32 0",
+  backgroundColor: "#295162",
+  color: "$white",
+  border: "0px",
+  outlineWidth: "0",
+  borderRadius: "$16",
+
+  "@bp2": {
+    display: "block",
+  },
+})
+
 const Result = styled("h2", {
   fontSize: "196px",
   width: "$full",
@@ -66,7 +105,6 @@ const SidesNumber = styled("button", {
     padding: "$16",
     lineHeight: "24px",
     borderRadius: "$16",
-    // width: "fit-content",
     flex: "1 1 72px;",
   },
 
@@ -195,18 +233,17 @@ const IndexPage = () => {
 
   return (
     <>
-      <div
-        className="dice-container"
-        // css={{
-        //   display: "flex",
-        //   width: "$full",
-        //   height: "100vh",
-        //   justifyContent: "space-between",
-        //   alignItems: "center",
-        //   marginBottom: "$16",
-        //   backgroundColor: "$grey9",
-        //   color: "$white",
-        // }}
+      <Box
+        css={{
+          backgroundColor: "$grey9",
+          color: "$white",
+          height: "100vh",
+          padding: "72px",
+
+          "@bp2": {
+            padding: "0",
+          },
+        }}
       >
         <Box
           css={{
@@ -238,15 +275,18 @@ const IndexPage = () => {
           }}
         >
           <form onSubmit={handleSubmit}>
-            <input
-              className="dice-input"
+            <SpellInput
               type="search"
               value={inputValue}
               onChange={e => setInputValue(e.target.value)}
               placeholder="spell"
               onKeyDown={handleKeypress}
             />
-            <input className="dice-submit" type="submit" value="Submit" />
+            <SubmitButton
+              className="dice-submit"
+              type="submit"
+              value="Submit"
+            />
           </form>
         </Box>
         <Box
@@ -333,7 +373,7 @@ const IndexPage = () => {
             })}
           </Box>
         </Box>
-      </div>
+      </Box>
     </>
   )
 }
