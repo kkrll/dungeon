@@ -1,13 +1,13 @@
 import React, { useRef, useState, useEffect } from "react"
 import { Box } from "../Box"
 import { styled } from "@stitches/react"
-import LunaIcon0 from "../../../public/moon/icons/moon-icon-0.svg"
-import LunaIcon04 from "../../../public/moon/icons/moon-icon-04.svg"
-import LunaIcon025 from "../../../public/moon/icons/moon-icon-025.svg"
-import LunaIcon05 from "../../../public/moon/icons/moon-icon-05.svg"
-import LunaIcon1 from "../../../public/moon/icons/moon-icon-1.svg"
-import LunaIcon06 from "../../../public/moon/icons/moon-icon-06.svg"
-import LunaIcon075 from "../../../public/moon/icons/moon-icon-075.svg"
+import LunaIcon0 from "../../images/moon/icons/moon-icon-0.svg"
+import LunaIcon04 from "../../images/moon/icons/moon-icon-04.svg"
+import LunaIcon025 from "../../images/moon/icons/moon-icon-025.svg"
+import LunaIcon05 from "../../images/moon/icons/moon-icon-05.svg"
+import LunaIcon1 from "../../images/moon/icons/moon-icon-1.svg"
+import LunaIcon06 from "../../images/moon/icons/moon-icon-06.svg"
+import LunaIcon075 from "../../images/moon/icons/moon-icon-075.svg"
 
 const Button = styled("button", {
   background: "transparent",

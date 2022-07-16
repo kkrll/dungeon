@@ -3,7 +3,7 @@ import * as React from "react"
 import { Box } from "../components/Box"
 import MoonCanvas from "../components/luna/moonCanvas"
 import { StaticImage } from "gatsby-plugin-image"
-import PlusIcon from "../../public/moon/icons/plus.svg"
+import PlusIcon from "../images/moon/icons/plus.svg"
 
 const LunaText = styled("p", {
   lineHeight: "1.4",
