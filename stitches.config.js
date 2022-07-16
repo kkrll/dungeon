@@ -1,13 +1,13 @@
 import { createStitches } from "@stitches/react"
 
-export const { styled, css, getCssText } = createStitches({
+export const { styled, css, getCssText, createTheme } = createStitches({
   theme: {
     colors: {
       white: "#fff",
       black: "#060c0e",
 
-      grey9: "#12242b",
-      grey8: "#19323c",
+      grey9: "#14181A",
+      grey8: "#293336",
       grey6: "#87969e",
       grey3: "#d1d7da",
       grey2: "#e8edef",
@@ -22,26 +22,43 @@ export const { styled, css, getCssText } = createStitches({
 
       azure7: "#3c7e90",
       azure5: "#448fa3",
+
+      text_primary: "$grey1",
+      background_primary: "$black",
+      text_secondary: "$grey6",
+      background_secondary: "$grey9",
+      background_tertiary: "$grey8",
+
+      // text_primary: "$grey9",
+      // background_primary: "$grey1",
+      // text_secondary: "$grey6",
+      // background_secondary: "$white",
+      // background_tertiary: "$white",
     },
     fonts: {
       sans: "Inter, sans-serif",
       serif: "Newsreader, Bitter, Verdana, serif",
     },
     fontSizes: {
-      1: "12px",
-      2: "14px",
-      3: "16px",
-      4: "20px",
-      5: "24px",
-      6: "32px",
+      12: "12px",
+      14: "14px",
+      16: "16px",
+      20: "20px",
+      24: "24px",
+      32: "32px",
+      48: "48px",
     },
     space: {
       2: "2px",
       4: "4px",
       5: "5px",
       8: "8px",
+      12: "12px",
       16: "16px",
+      20: "20px",
+      24: "24px",
       32: "32px",
+      48: "48px",
       64: "64px",
       128: "128px",
       third: "30%",
@@ -52,11 +69,16 @@ export const { styled, css, getCssText } = createStitches({
       5: "5px",
       8: "8px",
       16: "16px",
+      24: "24px",
       32: "32px",
+      48: "48px",
       64: "64px",
       128: "128px",
       320: "320px",
+      512: "512px",
+      640: "640px",
       full: "100%",
+      max: "1244px",
     },
     radii: {
       2: "2px",
@@ -70,6 +92,7 @@ export const { styled, css, getCssText } = createStitches({
       200: "200",
       400: "400",
       500: "500",
+      500: "600",
     },
     lineHeights: {},
     letterSpacings: {},
@@ -89,3 +112,13 @@ export const { styled, css, getCssText } = createStitches({
     bp3: "(max-width: 1024px)",
   },
 })
+
+// export const darkTheme = createTheme("dark-theme", {
+//   colors: {
+//     text_primary: "$gray1",
+//     background_primary: "$black",
+//     text_secondary: "$grey6",
+//     background_secondary: "$grey9",
+//     background_tertiary: "$grey8",
+//   },
+// })

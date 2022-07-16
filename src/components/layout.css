@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,200;0,400;1,200;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,200;0,400;0,500;1,200;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,200;0,400;1,200;1,300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font-family: "Newsreader", "Bitter", Verdana, serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -13,8 +12,8 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: "Newsreader", "Bitter", Verdana, serif;
+  font-family: "Inter", Verdana, serif;
+  /* font-family: "Newsreader", "Bitter", Verdana, serif; */
   font-weight: 400;
   word-wrap: break-word;
   font-kerning: normal;
@@ -85,11 +84,11 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: "Newsreader", "Bitter", Verdana, serif;
-  font-weight: 400;
-  text-rendering: optimizeLegibility;
+  font-weight: 600;
+  /* text-rendering: optimizeLegibility; */
   font-size: 2.25rem;
   line-height: 1.1;
+  background-color: inherit;
 }
 mark {
   background-color: #ff0;
@@ -263,11 +262,11 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: "Newsreader", "Bitter", Verdana, serif;
-  font-weight: 400;
+  font-weight: 600;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
   line-height: 1.1;
+  background-color: inherit;
 }
 h3 {
   margin-left: 0;
@@ -279,11 +278,11 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: "Newsreader", "Bitter", Verdana, serif;
-  font-weight: 400;
+  font-weight: 600;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
   line-height: 1.1;
+  background-color: inherit;
 }
 h4 {
   margin-left: 0;
@@ -295,11 +294,11 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: "Newsreader", "Bitter", Verdana, serif;
-  font-weight: 400;
+  font-weight: 600;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
   line-height: 1.1;
+  background-color: inherit;
 }
 h5 {
   margin-left: 0;
@@ -311,11 +310,11 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: "Newsreader", "Bitter", Verdana, serif;
-  font-weight: 400;
+  font-weight: 600;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
   line-height: 1.1;
+  background-color: inherit;
 }
 h6 {
   margin-left: 0;
@@ -327,11 +326,11 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: "Newsreader", "Bitter", Verdana, serif;
-  font-weight: 400;
+  font-weight: 600;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
   line-height: 1.1;
+  background-color: inherit;
 }
 hgroup {
   margin-left: 0;
@@ -396,6 +395,7 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  background-color: inherit;
 }
 pre {
   margin-left: 0;
@@ -587,6 +587,7 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
