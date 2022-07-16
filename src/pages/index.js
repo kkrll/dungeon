@@ -1,8 +1,8 @@
 import React from "react"
-import { Box } from "../components/box"
+import { Box } from "../components/Box"
 
 import Layout from "../components/layout"
-import Career from "../components/career"
+import Career from "../components/Career"
 import WritingList from "../components/writingList"
 import WritingPreview from "../components/writingPreview"
 

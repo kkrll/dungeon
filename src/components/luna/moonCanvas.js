@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react"
-import { Box } from "../box"
+import { Box } from "../Box"
 import { styled } from "@stitches/react"
 import LunaIcon0 from "../../images/moon/icons/moon-icon-0.svg"
 import LunaIcon04 from "../../images/moon/icons/moon-icon-04.svg"

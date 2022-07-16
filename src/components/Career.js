@@ -1,6 +1,6 @@
 import React from "react"
-import { Box } from "./box"
-import { Text } from "./text"
+import { Box } from "./Box"
+import { Text } from "./Text"
 
 const Career = () => {
   return (
