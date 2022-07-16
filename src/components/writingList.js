@@ -1,7 +1,7 @@
 import React from "react"
-import { Box } from "./Box"
+import { Box } from "./box"
 import { Link } from "gatsby"
-import { Text } from "./Text"
+import { Text } from "./text"
 
 const WritingList = () => {
   return (

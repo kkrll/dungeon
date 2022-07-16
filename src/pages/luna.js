@@ -1,6 +1,6 @@
 import { styled } from "@stitches/react"
 import * as React from "react"
-import { Box } from "../components/Box"
+import { Box } from "../components/box"
 import MoonCanvas from "../components/luna/moonCanvas"
 import { StaticImage } from "gatsby-plugin-image"
 import PlusIcon from "../images/moon/icons/plus.svg"

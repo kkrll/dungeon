@@ -1,5 +1,5 @@
 import React from "react"
-import { Box } from "./Box"
+import { Box } from "./box"
 
 import { Paragraph, Subtitle, ArticleMeta, Title } from "./articleTypography"
 import { Link } from "gatsby"

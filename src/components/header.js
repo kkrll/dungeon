@@ -1,7 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import { Box } from "./Box"
+import { Box } from "./box"
 
 const Logo = ({ siteTitle }) => {
   return (

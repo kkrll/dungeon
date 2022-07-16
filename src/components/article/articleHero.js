@@ -2,7 +2,7 @@ import React from "react"
 
 import { keyframes } from "@stitches/react"
 
-import { Box } from "../Box"
+import { Box } from "../box"
 import Header from "../header"
 import { Title, Subtitle, ArticleMeta } from "../articleTypography"
 

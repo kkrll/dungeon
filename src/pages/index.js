@@ -1,9 +1,9 @@
 import React from "react"
-import { Box } from "../components/Box"
+import { Box } from "../components/box"
 
 import Layout from "../components/layout"
 import Career from "../components/career"
-import WritingList from "../components/WritingList"
+import WritingList from "../components/writingList"
 import WritingPreview from "../components/writingPreview"
 
 const IndexPage = () => {

@@ -12,7 +12,7 @@ import { globalCss } from "@stitches/react"
 
 import Header from "./header"
 import "./layout.css"
-import { Box } from "./Box"
+import { Box } from "./box"
 
 const globalStyles = globalCss({
   // body: { backgroundColor: "$background_primary" },
