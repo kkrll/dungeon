@@ -82,6 +82,7 @@ export const Caption = styled("p", {
 export const List = styled("ul", {
   fontFamily: "$serif",
   fontSize: "18px",
+  lineHeight: "24px",
 })
 
 export default { Title, ArticleMeta, Subtitle, Paragraph, Caption, List }
