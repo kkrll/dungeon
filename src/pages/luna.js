@@ -4,6 +4,7 @@ import { Box } from "../components/Box"
 import MoonCanvas from "../components/luna/moonCanvas"
 import { StaticImage } from "gatsby-plugin-image"
 import PlusIcon from "../images/moon/icons/plus.svg"
+import { Link } from "gatsby"
 
 const LunaText = styled("p", {
   lineHeight: "1.4",
@@ -61,15 +62,19 @@ const LunaPage = () => {
           borderLeft: "1px solid #333",
         }}
       >
-        <LunaText
-          css={{
-            lineHeight: "24px",
-            borderBottom: "1px solid #fff",
-            width: "fit-content",
-          }}
-        >
-          Home
-        </LunaText>
+        <Link to="/">
+          <LunaText
+            css={{
+              lineHeight: "24px",
+              borderBottom: "1px solid #fff",
+              width: "fit-content",
+              color: "$white",
+              textDecoration: "none",
+            }}
+          >
+            Home
+          </LunaText>
+        </Link>
         <LunaText
           size="h2"
           css={{
