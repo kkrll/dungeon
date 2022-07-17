@@ -2,6 +2,7 @@ import React from "react"
 import { styled } from "@stitches/react"
 
 export const Title = styled("h1", {
+  lineHeight: "1.4",
   variants: {
     level: {
       1: {
@@ -48,14 +49,14 @@ export const ArticleMeta = styled("p", {
   marginBottom: "$8",
 })
 
-export const Subtitle = styled("h3", {
+export const Subtitle = styled("h2", {
   fontFamily: "$serif",
   fontWeight: "$400",
   lineHeight: "1.4",
   variants: {
     level: {
       1: {
-        fontSize: "$24",
+        fontSize: "$32",
       },
       2: {
         fontSize: "$20",
@@ -85,4 +86,19 @@ export const List = styled("ul", {
   lineHeight: "24px",
 })
 
-export default { Title, ArticleMeta, Subtitle, Paragraph, Caption, List }
+export const Divider = styled("div", {
+  height: "1px",
+  width: "$full",
+  backgroundColor: "$background_tertiary",
+  marginBottom: "$48",
+})
+
+export default {
+  Title,
+  ArticleMeta,
+  Subtitle,
+  Paragraph,
+  Caption,
+  List,
+  Divider,
+}

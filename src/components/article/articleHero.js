@@ -17,7 +17,7 @@ const onLoadBg = keyframes({
 //   "100%": { opacity: "1" },
 // })
 
-const ArticleHero = ({ title, subtitle, date, image }) => {
+const ArticleHero = ({ title, subtitle, date, image, extra }) => {
   return (
     <Box
       css={{
@@ -59,15 +59,18 @@ const ArticleHero = ({ title, subtitle, date, image }) => {
             },
           }}
         >
-          <Title>{title}</Title>
-          <ArticleMeta
+          <Title
             css={{
               marginBottom: "$24",
             }}
           >
-            {date}
-          </ArticleMeta>
+            {title}
+          </Title>
           <Subtitle>{subtitle}</Subtitle>
+          <Box flex="row">
+            <ArticleMeta>{date}</ArticleMeta>
+            {extra && <ArticleMeta>{extra}</ArticleMeta>}
+          </Box>
         </Box>
         <Box
           as={"img"}

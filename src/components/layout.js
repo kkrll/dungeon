@@ -49,8 +49,8 @@ const Layout = ({ children, header }) => {
           margin: `0 auto`,
         }}
       >
-        <button onClick={() => setDarkTheme(!darkTheme)}>change theme</button>
-        <p>{darkTheme && "drk"}</p>
+        {/* <button onClick={() => setDarkTheme(!darkTheme)}>change theme</button>
+        <p>{darkTheme && "drk"}</p> */}
         <main>{children}</main>
         <footer
           style={{
