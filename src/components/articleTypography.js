@@ -56,7 +56,7 @@ export const Subtitle = styled("h2", {
   variants: {
     level: {
       1: {
-        fontSize: "$32",
+        fontSize: "$24",
       },
       2: {
         fontSize: "$20",
@@ -76,8 +76,10 @@ export const Paragraph = styled("p", {
 
 export const Caption = styled("p", {
   fontFamily: "$serif",
+  fontStyle: "italic",
   fontSize: "18px",
   lineHeight: "1.5",
+  color: "$text_secondary",
 })
 
 export const List = styled("ul", {

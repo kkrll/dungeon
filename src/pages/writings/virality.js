@@ -6,6 +6,7 @@ import {
   Title,
   List,
   Divider,
+  Caption,
 } from "../../components/articleTypography"
 import { Box } from "../../components/Box"
 import ArticleHero from "../../components/article/articleHero"
@@ -15,10 +16,8 @@ const ArticleViralityPage = () => {
   return (
     <Layout>
       <ArticleHero
-        title="Some words on Virality"
-        subtitle="It started as an attempt to add a bit of structure and ended up as
-       an actionable instrument. Used as an ideation tool, it helped us to
-       raise conversion addressing the users hidden from our sight."
+        title="Virality"
+        subtitle="Virality is a notion of common knowledge today - almost everyone has some understanding of it. Becoming viral is a healthy intention for a product, service provider or creator. So here we are going to dive a bit deeper into how it works and what companies do to give more reasons and means for their audience to share a word about them."
         date="some date"
         image="/articles/virality/virality_hero.png"
       />
@@ -45,6 +44,12 @@ const ArticleViralityPage = () => {
           }}
         >
           <Box css={{ marginBottom: "$48" }}>
+            <Caption css={{ marginBottom: "$48" }}>
+              This article is the first part of two, which is theoretical and
+              describes how companies leverage virality. The second one is about
+              the workshop intended to ideate on how we can use it and turn
+              theory into practice.
+            </Caption>
             <Title level="3" as="h2">
               What is virality technically?
             </Title>
@@ -56,6 +61,42 @@ const ArticleViralityPage = () => {
               Coefficient - the ratio between the number of acquired users to
               the users referred by them:
             </Paragraph>
+            <Box
+              css={{
+                width: "$full",
+                display: "flex",
+                flexDirection: "row",
+
+                "@bp3": {
+                  flexDirection: "column",
+                },
+              }}
+            >
+              <Box
+                as={"img"}
+                src={"/articles/virality/coefficient-table.png"}
+                alt={"Demonstration virality"}
+                css={{
+                  width: "50%",
+
+                  "@bp3": {
+                    width: "$full",
+                  },
+                }}
+              />
+              <Box
+                as={"img"}
+                src={"/articles/virality/coefficient-graph.png"}
+                alt={"Demonstration virality"}
+                css={{
+                  width: "50%",
+
+                  "@bp3": {
+                    width: "$full",
+                  },
+                }}
+              />
+            </Box>
             <Paragraph>
               So you can see - if, in average, ten customers start to bring more
               than ten others, you begin to grow exponentially and become viral.
