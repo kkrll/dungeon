@@ -9,7 +9,7 @@ import {
 } from "../../components/articleTypography"
 import { Box } from "../../components/Box"
 import ArticleHero from "../../components/article/articleHero"
-import WritingList from "../../components/WritingList"
+import WritingList from "../../components/writingList"
 
 const ArticleViralityPage = () => {
   return (
