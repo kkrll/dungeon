@@ -26,7 +26,7 @@ const WritingList = () => {
         <li>
           <Link to="/writings/virality">Virality</Link>
         </li>
-        <li>Pro cards</li>
+        <Link to="/writings/virality">luna</Link>
       </ul>
     </Box>
   )
