@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../../components/layout"
 
 import { Paragraph, Title, List } from "../../components/articleTypography"
-import { Box } from "../../components/box"
+import { Box } from "../../components/Box"
 import ArticleHero from "../../components/article/articleHero"
 
 const ArticleViralityPage = () => {
