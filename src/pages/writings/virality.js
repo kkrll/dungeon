@@ -11,6 +11,7 @@ import {
 import { Box } from "../../components/Box"
 import ArticleHero from "../../components/article/articleHero"
 import WritingList from "../../components/writingList"
+import { Link } from "gatsby"
 
 const ArticleViralityPage = () => {
   return (
@@ -57,9 +58,16 @@ const ArticleViralityPage = () => {
               It can be put as audience-driven growth - a company grows because
               each new user begets more users. Quite a simple concept to
               explain, much harder to achieve. Adam L. Penenberg, in his book
-              called “Viral Loop”, illustrates it with the use of Viral
-              Coefficient - the ratio between the number of acquired users to
-              the users referred by them:
+              called "
+              <a
+                target="_blank"
+                href="https://www.goodreads.com/en/book/show/6912295"
+              >
+                Viral Loop
+              </a>
+              ”, illustrates it with the use of Viral Coefficient - the ratio
+              between the number of acquired users to the users referred by
+              them:
             </Paragraph>
             <Box
               css={{
@@ -401,9 +409,15 @@ const ArticleViralityPage = () => {
                 </Title>
                 <Paragraph>
                   Several times a year you can see your social networks get full
-                  of Spotify Wrapped - everyone shares their listener’s stats.
-                  It’s a great example of how company gets use of the data it
-                  owns;
+                  of{" "}
+                  <a
+                    href="https://www.vox.com/culture/22814121/spotify-wrapped-2021-algorithm-data-privacy"
+                    target="_blank"
+                  >
+                    Spotify Wrapped
+                  </a>{" "}
+                  - everyone shares their listener’s stats. It’s a great example
+                  of how company gets use of the data it owns;
                 </Paragraph>
               </li>
               <li>
@@ -421,10 +435,17 @@ const ArticleViralityPage = () => {
                   Hotmail
                 </Title>
                 <Paragraph>
-                  You may know the famous story about “Get your free email at
-                  Hotmail.com” footer. Every message sent from Hotmail used to
-                  contain this little promo line and let the company grow the
-                  awareness and userbase exponentially.
+                  You may know the{" "}
+                  <a
+                    href="https://techcrunch.com/2009/10/18/ps-i-love-you-get-your-free-email-at-hotmail/"
+                    target="_blank"
+                  >
+                    famous story
+                  </a>{" "}
+                  about “Get your free email at Hotmail.com” footer. Every
+                  message sent from Hotmail used to contain this little promo
+                  line and let the company grow the awareness and userbase
+                  exponentially.
                 </Paragraph>
               </li>
             </List>
@@ -513,8 +534,14 @@ const ArticleViralityPage = () => {
                   Tupperware{" "}
                 </Title>
                 <Paragraph>
-                  Pioneer of viral marketing with the Tupperware parties - the
-                  party is run by a Tupperware "consultant" for a host or
+                  Pioneer of viral marketing with the{" "}
+                  <a
+                    href="https://en.wikipedia.org/wiki/Tupperware#Tupperware_parties"
+                    target="_blank"
+                  >
+                    Tupperware parties
+                  </a>{" "}
+                  - the party is run by a Tupperware "consultant" for a host or
                   hostess who invites friends and neighbours into their home to
                   see the product line. This way, a customer can become a
                   distributor and get an income share;
@@ -567,9 +594,12 @@ const ArticleViralityPage = () => {
                   Intercom
                 </Title>
                 <Paragraph>
-                  Inside intercom has a nice blog on building a product - taking
-                  into account their b2b model, it's an accurate targeting for
-                  their audience;
+                  <a href="https://www.intercom.com/blog/" target="_blank">
+                    Inside intercom
+                  </a>{" "}
+                  has a nice blog on building a product - taking into account
+                  their b2b model, it's an accurate targeting for their
+                  audience;
                 </Paragraph>
               </li>
               <li>
@@ -586,8 +616,11 @@ const ArticleViralityPage = () => {
                   Aviasales
                 </Title>
                 <Paragraph>
-                  Travel blog by a travel company not only tells you about
-                  possible destinations but provides a ticket.
+                  <a href="https://www.aviasales.ru/psgr" target="_blank">
+                    Travel blog
+                  </a>{" "}
+                  by a travel company not only tells you about possible
+                  destinations but provides a ticket.
                 </Paragraph>
               </li>
             </List>
@@ -620,8 +653,21 @@ const ArticleViralityPage = () => {
                   Airbnb's Lottie
                 </Title>
                 <Paragraph>
-                  Animation tool, along with code style guide, adds up to the
-                  company authority;
+                  <a
+                    href="https://exchange.adobe.com/creativecloud.details.12557.bodymovin.html"
+                    target="_blank"
+                  >
+                    Bodymovin
+                  </a>{" "}
+                  animation tool{" "}
+                  <a href="https://airbnb.design/lottie/" target="_blank">
+                    upgrade
+                  </a>{" "}
+                  along with{" "}
+                  <a href="https://airbnb.io/javascript/react/" target="_blank">
+                    code style guide
+                  </a>{" "}
+                  adds up to the company authority;
                 </Paragraph>
               </li>
               <li>
@@ -638,8 +684,12 @@ const ArticleViralityPage = () => {
                   Google
                 </Title>
                 <Paragraph>
-                  Quite a lot of Google Experiments help to increase the brand’s
-                  image as an innovative and versatile one.
+                  Quite a lot of{" "}
+                  <a href="https://experiments.withgoogle.com/" target="_blank">
+                    Google Experiments
+                  </a>{" "}
+                  help to increase the brand’s image as an innovative and
+                  versatile one.
                 </Paragraph>
               </li>
             </List>
