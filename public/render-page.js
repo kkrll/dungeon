@@ -4973,7 +4973,7 @@ const {
       white: "#fff",
       black: "#060c0e",
       grey9: "#14181A",
-      grey8: "#293336",
+      grey8: "#485F67",
       grey6: "#87969e",
       grey3: "#d1d7da",
       grey2: "#e8edef",

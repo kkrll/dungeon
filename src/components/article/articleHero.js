@@ -7,21 +7,21 @@ import Header from "../header"
 import { Title, Subtitle, ArticleMeta } from "../articleTypography"
 
 const onLoadBg = keyframes({
+  "0%": { backgroundColor: "$background_primary" },
+  "100%": { backgroundColor: "$background_tertiary" },
+})
+
+const onLoadSize = keyframes({
   "0%": { minHeight: "calc(100vh - 196px)" },
   "100%": { minHeight: "50vh" },
 })
-
-// const onLoadContent = keyframes({
-//   "0%": { opacity: "0" },
-//   "66%": { opacity: "0" },
-//   "100%": { opacity: "1" },
-// })
 
 const ArticleHero = ({ title, subtitle, date, image, extra }) => {
   return (
     <Box
       css={{
         backgroundColor: "$background_tertiary",
+        animation: `${onLoadBg} 750ms cubic-bezier(0.45, 0, 0.55, 1)`,
       }}
     >
       <Header />
@@ -33,10 +33,10 @@ const ArticleHero = ({ title, subtitle, date, image, extra }) => {
           justifyContent: "center",
           alignItems: "center",
           minHeight: "50vh",
-          animation: `${onLoadBg} 750ms cubic-bezier(0.45, 0, 0.55, 1)`,
           padding: "$64",
           maxWidth: "$max",
           margin: "0 auto",
+          animation: `${onLoadSize} 750ms cubic-bezier(0.45, 0, 0.55, 1)`,
 
           "@bp3": {
             flexDirection: "column-reverse",
@@ -52,7 +52,6 @@ const ArticleHero = ({ title, subtitle, date, image, extra }) => {
           css={{
             maxWidth: "640px",
             marginRight: "$64",
-            // animation: `${onLoadContent} 750ms ease-out`,
 
             "@bp3": {
               marginRight: "0",

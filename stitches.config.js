@@ -7,7 +7,7 @@ export const { styled, css, getCssText, createTheme } = createStitches({
       black: "#060c0e",
 
       grey9: "#14181A",
-      grey8: "#293336",
+      grey8: "#485F67",
       grey6: "#87969e",
       grey3: "#d1d7da",
       grey2: "#e8edef",
@@ -25,7 +25,7 @@ export const { styled, css, getCssText, createTheme } = createStitches({
 
       text_primary: "$grey1",
       background_primary: "$black",
-      text_secondary: "$grey6",
+      text_secondary: "$grey3",
       background_secondary: "$grey9",
       background_tertiary: "$grey8",
 
